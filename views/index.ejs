@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="assets/logo-bar.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Ubuntu:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Aldi Amiri || Official Web</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="navbarNav">
+    <!-- navbar -->
+    <div class="container-fluid position-fixed" id="nav">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent py-auto">
+        <div class="container mt-2">
+          <a class="navbar-brand" href="#hero">
+            <img id="imglogo" src="assets/logo.png" alt="logo" />
+          </a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+          </button>
+          <div  class="collapse navbar-collapse py-auto" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item ms-2">
+                <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+              </li>
+              <li class="nav-item ms-2">
+                <a class="nav-link" href="#my-videos">My Videos</a>
+              </li>
+              <li class="nav-item ms-2">
+                <a class="nav-link" href="#about-us">About Us</a>
+              </li>
+              <li class="nav-item ms-2">
+                <a class="nav-link" href="#contact-us">Contact Us</a>
+              </li>
+
+              <li class="nav-item ms-5"></li>
+              <li class="nav-item">
+                <a target="blank" class="nav-link me me-2" aria-current="page" href="https://www.youtube.com/user/AldiAmiri">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" viewBox="0 0 40.402 28.59">
+                    <path
+                      id="youtube"
+                      d="M32.011,67.393H8.391A8.391,8.391,0,0,0,0,75.784V87.592a8.391,8.391,0,0,0,8.391,8.391h23.62A8.391,8.391,0,0,0,40.4,87.592V75.784A8.391,8.391,0,0,0,32.011,67.393ZM26.336,82.262,15.289,87.532a.444.444,0,0,1-.634-.4V76.263a.443.443,0,0,1,.644-.4l11.048,5.6A.444.444,0,0,1,26.336,82.262Z"
+                      transform="translate(0 -67.393)"
+                      fill="#fff"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a target="blank" class="nav-link me-2" aria-current="page" href="https://www.instagram.com/aldiamiri/">
+                  <svg id="instagram" xmlns="http://www.w3.org/2000/svg" width="25" height="20" viewBox="0 0 31.925 31.931">
+                    <path
+                      id="Path_17"
+                      data-name="Path 17"
+                      d="M32.293,9.388a11.668,11.668,0,0,0-.742-3.874A8.18,8.18,0,0,0,26.878.842,11.7,11.7,0,0,0,23,.1C21.3.019,20.753,0,16.417,0S11.539.019,9.836.094A11.671,11.671,0,0,0,5.963.836,7.791,7.791,0,0,0,3.131,2.682a7.862,7.862,0,0,0-1.84,2.826A11.7,11.7,0,0,0,.548,9.382c-.081,1.709-.1,2.252-.1,6.587s.019,4.878.094,6.581a11.667,11.667,0,0,0,.742,3.874A8.178,8.178,0,0,0,5.957,31.1a11.7,11.7,0,0,0,3.874.742c1.7.075,2.246.094,6.581.094s4.878-.019,6.581-.094a11.665,11.665,0,0,0,3.874-.742,8.167,8.167,0,0,0,4.672-4.672,11.707,11.707,0,0,0,.742-3.874c.075-1.7.094-2.246.094-6.581s-.006-4.878-.081-6.581ZM29.417,22.425a8.752,8.752,0,0,1-.549,2.963,5.3,5.3,0,0,1-3.032,3.032,8.783,8.783,0,0,1-2.963.549c-1.684.075-2.189.094-6.45.094s-4.772-.019-6.45-.094a8.748,8.748,0,0,1-2.963-.549,4.913,4.913,0,0,1-1.834-1.192,4.964,4.964,0,0,1-1.192-1.834,8.785,8.785,0,0,1-.549-2.963c-.075-1.684-.094-2.19-.094-6.45s.019-4.772.094-6.45a8.748,8.748,0,0,1,.549-2.963,4.853,4.853,0,0,1,1.2-1.834A4.957,4.957,0,0,1,7.017,3.543,8.789,8.789,0,0,1,9.98,2.994c1.684-.075,2.19-.094,6.45-.094s4.772.019,6.45.094a8.752,8.752,0,0,1,2.963.549,4.91,4.91,0,0,1,1.834,1.191,4.963,4.963,0,0,1,1.192,1.834,8.788,8.788,0,0,1,.549,2.963c.075,1.684.094,2.189.094,6.45s-.019,4.759-.094,6.444Zm0,0"
+                      transform="translate(-0.449 0)"
+                      fill="#fff"
+                    />
+                    <path
+                      id="Path_18"
+                      data-name="Path 18"
+                      d="M133.152,124.5a8.2,8.2,0,1,0,8.2,8.2A8.2,8.2,0,0,0,133.152,124.5Zm0,13.524a5.321,5.321,0,1,1,5.321-5.321A5.322,5.322,0,0,1,133.152,138.024Zm0,0"
+                      transform="translate(-117.183 -116.734)"
+                      fill="#fff"
+                    />
+                    <path id="Path_19" data-name="Path 19" d="M366.28,90.517a1.915,1.915,0,1,1-1.915-1.915A1.915,1.915,0,0,1,366.28,90.517Zm0,0" transform="translate(-339.869 -83.075)" fill="#fff" />
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a target="blank" class="nav-link me-2" href="https://www.facebook.com/aldi.amiri/">
+                  <svg width="25" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M6.65382 19.1726H2.56282V9.67859H0.517822V6.40559H2.56282V4.44159C2.56282 1.77259 3.71782 0.183594 6.99582 0.183594H9.72582V3.45659H8.02082C6.74282 3.45659 6.65882 3.91459 6.65882 4.76859L6.65382 6.40559H9.74582L9.38382 9.67859H6.65382V19.1726Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- end navbar -->
+
+    <!-- hero -->
+    <section id="hero">
+      <div class="jumbotron" >
+        <div class="container">
+          <div class="row hero">
+            <div class="col-lg-5 col-md-6 offset-lg-1 mt-md-0 my-3 order-1 text-center text-lg-start"> 
+              <br><br><br> <br><br>          
+              <h2 class="mt-1">Hello</h2>
+              <h1 class="fw-bold">I Am Aldi Amiri</h1>
+              <p>
+                IT Consultant || Full Stack Web Developer ||<br />
+                I Like Play Guitar
+              </p>
+              <a href="#contact-us"><button class="btn-custom1">Let's Talk</button></a>
+              <div class="sosial-icon" id="sosial-icon">
+                <a href="https://www.linkedin.com/in/aldi-amiri-969508225/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 31.297 31.297">
+                  <path
+                    id="linkedin"
+                    d="M28.466,0H2.831A2.831,2.831,0,0,0,0,2.831V28.466A2.831,2.831,0,0,0,2.831,31.3H28.466A2.831,2.831,0,0,0,31.3,28.466V2.831A2.831,2.831,0,0,0,28.466,0ZM9.685,27.024a.824.824,0,0,1-.824.824H5.354a.824.824,0,0,1-.824-.824v-14.7a.824.824,0,0,1,.824-.824H8.861a.824.824,0,0,1,.824.824ZM7.107,10.113a3.332,3.332,0,1,1,3.332-3.332A3.332,3.332,0,0,1,7.107,10.113ZM28.012,27.09a.758.758,0,0,1-.758.758H23.491a.758.758,0,0,1-.758-.758v-6.9c0-1.029.3-4.508-2.688-4.508-2.319,0-2.79,2.381-2.884,3.45V27.09a.758.758,0,0,1-.758.758h-3.64a.758.758,0,0,1-.758-.758V12.256a.758.758,0,0,1,.758-.758H16.4a.758.758,0,0,1,.758.758v1.283c.86-1.291,2.138-2.287,4.859-2.287,6.026,0,5.992,5.63,5.992,8.723V27.09Z"
+                    fill="#fff"
+                  />
+                </svg></a>
+                <a href="https://github.com/aldiamiri" target="_blank"><svg id="github-logo" xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 35.627 34.755">
+                  <path
+                    id="Path_20"
+                    data-name="Path 20"
+                    d="M33.237,14.237a17.736,17.736,0,0,0-6.483-6.483,17.423,17.423,0,0,0-8.941-2.389A17.425,17.425,0,0,0,8.872,7.754a17.734,17.734,0,0,0-6.483,6.483A17.425,17.425,0,0,0,0,23.178,17.312,17.312,0,0,0,3.4,33.65a17.446,17.446,0,0,0,8.779,6.436,1.038,1.038,0,0,0,.928-.162.907.907,0,0,0,.3-.7q0-.07-.012-1.252t-.012-2.064L12.849,36a6.805,6.805,0,0,1-1.287.081,9.809,9.809,0,0,1-1.612-.162,3.6,3.6,0,0,1-1.554-.7A2.943,2.943,0,0,1,7.375,33.8l-.232-.534a5.8,5.8,0,0,0-.73-1.183A2.8,2.8,0,0,0,5.4,31.2l-.162-.116a1.7,1.7,0,0,1-.3-.279,1.272,1.272,0,0,1-.209-.325q-.07-.163.116-.267a1.5,1.5,0,0,1,.673-.1l.464.069a3.386,3.386,0,0,1,1.148.557,3.744,3.744,0,0,1,1.125,1.206A4.089,4.089,0,0,0,9.544,33.4a2.731,2.731,0,0,0,1.519.5,6.6,6.6,0,0,0,1.322-.116,4.613,4.613,0,0,0,1.044-.348,3.758,3.758,0,0,1,1.136-2.389,15.881,15.881,0,0,1-2.377-.418,9.466,9.466,0,0,1-2.18-.9,6.244,6.244,0,0,1-1.867-1.554,7.468,7.468,0,0,1-1.218-2.435,11.581,11.581,0,0,1-.475-3.479A6.765,6.765,0,0,1,8.28,17.471a6.235,6.235,0,0,1,.162-4.731,3.25,3.25,0,0,1,1.995.313,13.946,13.946,0,0,1,1.937.893q.615.371.986.626a16.751,16.751,0,0,1,8.907,0l.881-.556A12.483,12.483,0,0,1,25.282,13a3.04,3.04,0,0,1,1.879-.255,6.175,6.175,0,0,1,.185,4.731,6.766,6.766,0,0,1,1.833,4.778A11.711,11.711,0,0,1,28.7,25.74a7.178,7.178,0,0,1-1.229,2.435A6.484,6.484,0,0,1,25.6,29.718a9.484,9.484,0,0,1-2.18.9,15.865,15.865,0,0,1-2.377.418,4.131,4.131,0,0,1,1.206,3.293v4.894a.924.924,0,0,0,.29.7,1.007,1.007,0,0,0,.916.162,17.444,17.444,0,0,0,8.779-6.436,17.315,17.315,0,0,0,3.4-10.472A17.439,17.439,0,0,0,33.237,14.237Z"
+                    transform="translate(0 -5.365)"
+                    fill="#fff"
+                  />
+                </svg></a>
+                <br />
+                <a href="#" class="fw-bold text-decoration-none cv">Download <span class="color-acsent">Curicullum Vitae</span></a>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-6 order-md-1">
+              <br /><br /><br /><br /><br /><br /><br />
+              <img id="aldiimg" src="assets/aldimainbg.jpg" width="60%" class="float-lg-end mx-auto d-block   rounded-circle" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end hero -->
+
+    <!-- my videos -->
+    <section id="my-videos" data-aos="fade-right">
+      <div class="container ">
+        <div class="row justify-content-center">
+          <h1 class="text-center mt-5">My Videos</h1>
+
+          <!-- content 1 -->
+          <div class="mx-4 mt-3 text-center" style="width: 18rem">
+            <iframe
+              width="250"
+              src="https://www.youtube.com/embed/QuaZlFajbuo"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- end content 1 -->
+
+          <!-- content 2 -->
+          <div class="mx-4 mt-3 text-center" style="width: 18rem">
+            <iframe
+              width="250"
+              src="https://www.youtube.com/embed/MHQteYewT9c"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- end content 2 -->
+
+          <!-- content 3 -->
+          <div class="mx-4 mt-3 text-center" style="width: 18rem">
+            <iframe
+              width="250"
+              src="https://www.youtube.com/embed/rItsWJFpZ_4"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- end content 3 -->
+
+          <!-- content 4 -->
+          <div class="mx-4 mt-3 text-center" style="width: 18rem">
+            <iframe
+              width="250"
+              src="https://www.youtube.com/embed/NY3mbFqNnf4"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- end content 4 -->
+
+          <!-- content 5 -->
+          <div class="mx-4 mt-3 text-center" style="width: 18rem">
+            <iframe
+              width="250"
+              src="https://www.youtube.com/embed/tBS2x6fixII"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- end content 5 -->
+
+          <!-- content 6 -->
+          <div class="mx-4 mt-3 text-center" style="width: 18rem">
+            <iframe
+              width="250"
+              src="https://www.youtube.com/embed/Se5PQhBrE3o"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- end content 6 -->
+
+          <!-- content 7 -->
+          <div class="mx-4 mt-3 text-center" style="width: 18rem">
+            <iframe
+              width="250"
+              src="https://www.youtube.com/embed/0Iyj0Bx6eP0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- end content 7 -->
+
+          <!-- content 8 -->
+          <div class="mx-4 mt-3 text-center" style="width: 18rem">
+            <iframe
+              width="250"
+              src="https://www.youtube.com/embed/HBFJuqYgmM8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- end content 8 -->
+
+          <!-- content 9 -->
+          <div class="mx-4 mt-3 text-center" style="width: 18rem">
+            <iframe
+              width="250"
+              src="https://www.youtube.com/embed/vxA0fU6rRPA"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- end content 9 -->
+        </div>
+      </div>
+    </section>
+    <!-- end my videos -->
+
+    <!-- about us -->
+    <section id="about-us" ">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-lg-6 col-md-12 col-sm-6">
+            <img data-aos="fade-left" class="aldiabout" id="aldiabout" src="assets/aldiabout.jpg" alt="aldiabout" />
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6 mt-5">
+            <h1 data-aos="fade-up" id="about">About <span id="us">Us</span></h1>
+            <p data-aos="fade-right">
+              I am a Full Stack web developer and IT Consultant. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. I
+              also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.
+              <br />
+              <br />
+              <br /><br /><br />
+              Best Regards, <br />
+              Aldi Amiri
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about us -->
+  </body>
+
+  <footer>
+    <section id="contact-us" data-aos="fade-down">
+      <div class="container">
+        <div class="row text-center mt-3">
+          <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-center">
+            <div class="sosial-media-footer mt-4">
+              <!-- fb -->
+              <a href="https://www.facebook.com/aldi.amiri/" target="_blank"><svg class="me-5" width="15" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.65382 19.1726H2.56282V9.67859H0.517822V6.40559H2.56282V4.44159C2.56282 1.77259 3.71782 0.183594 6.99582 0.183594H9.72582V3.45659H8.02082C6.74282 3.45659 6.65882 3.91459 6.65882 4.76859L6.65382 6.40559H9.74582L9.38382 9.67859H6.65382V19.1726Z"
+                  fill="white"
+                />
+              </svg></a>
+
+              <!-- insta -->
+              <a href="https://www.instagram.com/aldiamiri/" target="_blank"><svg class="me-5" id="instagram" xmlns="http://www.w3.org/2000/svg" width="25" viewBox="0 0 31.925 31.931">
+                <path
+                  id="Path_17"
+                  data-name="Path 17"
+                  d="M32.293,9.388a11.668,11.668,0,0,0-.742-3.874A8.18,8.18,0,0,0,26.878.842,11.7,11.7,0,0,0,23,.1C21.3.019,20.753,0,16.417,0S11.539.019,9.836.094A11.671,11.671,0,0,0,5.963.836,7.791,7.791,0,0,0,3.131,2.682a7.862,7.862,0,0,0-1.84,2.826A11.7,11.7,0,0,0,.548,9.382c-.081,1.709-.1,2.252-.1,6.587s.019,4.878.094,6.581a11.667,11.667,0,0,0,.742,3.874A8.178,8.178,0,0,0,5.957,31.1a11.7,11.7,0,0,0,3.874.742c1.7.075,2.246.094,6.581.094s4.878-.019,6.581-.094a11.665,11.665,0,0,0,3.874-.742,8.167,8.167,0,0,0,4.672-4.672,11.707,11.707,0,0,0,.742-3.874c.075-1.7.094-2.246.094-6.581s-.006-4.878-.081-6.581ZM29.417,22.425a8.752,8.752,0,0,1-.549,2.963,5.3,5.3,0,0,1-3.032,3.032,8.783,8.783,0,0,1-2.963.549c-1.684.075-2.189.094-6.45.094s-4.772-.019-6.45-.094a8.748,8.748,0,0,1-2.963-.549,4.913,4.913,0,0,1-1.834-1.192,4.964,4.964,0,0,1-1.192-1.834,8.785,8.785,0,0,1-.549-2.963c-.075-1.684-.094-2.19-.094-6.45s.019-4.772.094-6.45a8.748,8.748,0,0,1,.549-2.963,4.853,4.853,0,0,1,1.2-1.834A4.957,4.957,0,0,1,7.017,3.543,8.789,8.789,0,0,1,9.98,2.994c1.684-.075,2.19-.094,6.45-.094s4.772.019,6.45.094a8.752,8.752,0,0,1,2.963.549,4.91,4.91,0,0,1,1.834,1.191,4.963,4.963,0,0,1,1.192,1.834,8.788,8.788,0,0,1,.549,2.963c.075,1.684.094,2.189.094,6.45s-.019,4.759-.094,6.444Zm0,0"
+                  transform="translate(-0.449 0)"
+                  fill="#fff"
+                />
+                <path
+                  id="Path_18"
+                  data-name="Path 18"
+                  d="M133.152,124.5a8.2,8.2,0,1,0,8.2,8.2A8.2,8.2,0,0,0,133.152,124.5Zm0,13.524a5.321,5.321,0,1,1,5.321-5.321A5.322,5.322,0,0,1,133.152,138.024Zm0,0"
+                  transform="translate(-117.183 -116.734)"
+                  fill="#fff"
+                />
+                <path id="Path_19" data-name="Path 19" d="M366.28,90.517a1.915,1.915,0,1,1-1.915-1.915A1.915,1.915,0,0,1,366.28,90.517Zm0,0" transform="translate(-339.869 -83.075)" fill="#fff" />
+              </svg></a>
+
+              <!-- youtube -->
+              <a href="https://www.youtube.com/user/AldiAmiri" target="_blank"><svg class="me-5" xmlns="http://www.w3.org/2000/svg" width="25" viewBox="0 0 40.402 28.59">
+                <path
+                  id="youtube"
+                  d="M32.011,67.393H8.391A8.391,8.391,0,0,0,0,75.784V87.592a8.391,8.391,0,0,0,8.391,8.391h23.62A8.391,8.391,0,0,0,40.4,87.592V75.784A8.391,8.391,0,0,0,32.011,67.393ZM26.336,82.262,15.289,87.532a.444.444,0,0,1-.634-.4V76.263a.443.443,0,0,1,.644-.4l11.048,5.6A.444.444,0,0,1,26.336,82.262Z"
+                  transform="translate(0 -67.393)"
+                  fill="#fff"
+                />
+              </svg></a>
+
+              <!-- github -->
+              <a href="https://github.com/aldiamiri" target="_blank"><svg class="me-5" id="github-logo-foot" xmlns="http://www.w3.org/2000/svg" width="25" viewBox="0 0 35.627 34.755">
+                <path
+                  id="Path_20"
+                  data-name="Path 20"
+                  d="M33.237,14.237a17.736,17.736,0,0,0-6.483-6.483,17.423,17.423,0,0,0-8.941-2.389A17.425,17.425,0,0,0,8.872,7.754a17.734,17.734,0,0,0-6.483,6.483A17.425,17.425,0,0,0,0,23.178,17.312,17.312,0,0,0,3.4,33.65a17.446,17.446,0,0,0,8.779,6.436,1.038,1.038,0,0,0,.928-.162.907.907,0,0,0,.3-.7q0-.07-.012-1.252t-.012-2.064L12.849,36a6.805,6.805,0,0,1-1.287.081,9.809,9.809,0,0,1-1.612-.162,3.6,3.6,0,0,1-1.554-.7A2.943,2.943,0,0,1,7.375,33.8l-.232-.534a5.8,5.8,0,0,0-.73-1.183A2.8,2.8,0,0,0,5.4,31.2l-.162-.116a1.7,1.7,0,0,1-.3-.279,1.272,1.272,0,0,1-.209-.325q-.07-.163.116-.267a1.5,1.5,0,0,1,.673-.1l.464.069a3.386,3.386,0,0,1,1.148.557,3.744,3.744,0,0,1,1.125,1.206A4.089,4.089,0,0,0,9.544,33.4a2.731,2.731,0,0,0,1.519.5,6.6,6.6,0,0,0,1.322-.116,4.613,4.613,0,0,0,1.044-.348,3.758,3.758,0,0,1,1.136-2.389,15.881,15.881,0,0,1-2.377-.418,9.466,9.466,0,0,1-2.18-.9,6.244,6.244,0,0,1-1.867-1.554,7.468,7.468,0,0,1-1.218-2.435,11.581,11.581,0,0,1-.475-3.479A6.765,6.765,0,0,1,8.28,17.471a6.235,6.235,0,0,1,.162-4.731,3.25,3.25,0,0,1,1.995.313,13.946,13.946,0,0,1,1.937.893q.615.371.986.626a16.751,16.751,0,0,1,8.907,0l.881-.556A12.483,12.483,0,0,1,25.282,13a3.04,3.04,0,0,1,1.879-.255,6.175,6.175,0,0,1,.185,4.731,6.766,6.766,0,0,1,1.833,4.778A11.711,11.711,0,0,1,28.7,25.74a7.178,7.178,0,0,1-1.229,2.435A6.484,6.484,0,0,1,25.6,29.718a9.484,9.484,0,0,1-2.18.9,15.865,15.865,0,0,1-2.377.418,4.131,4.131,0,0,1,1.206,3.293v4.894a.924.924,0,0,0,.29.7,1.007,1.007,0,0,0,.916.162,17.444,17.444,0,0,0,8.779-6.436,17.315,17.315,0,0,0,3.4-10.472A17.439,17.439,0,0,0,33.237,14.237Z"
+                  transform="translate(0 -5.365)"
+                  fill="#fff"
+                />
+              </svg></a>
+
+              <div class="row justify-content-center mt-4">
+                <img id="logo-footer" src="assets/logo.png" alt="logo-footer" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-12 float-end">
+            <div class="mb-3 mt-4">
+              <form action="https://formsubmit.co/b88cf05451fb17b22ba8b5c1d93055e8" method="POST">
+              <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Please Add Your Name" />
+            </div>
+            <div class="mb-3">
+              <input type="email" name="email" class="form-control" id="exampleFormControlInput2" placeholder="Example : youremail@gmail.com" required />
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success text-lg-center">Send</button>
+          </div>
+        </form>
+          <div class="row mt-3 text-center">
+            <p class="text-center">@2022 Design By Aldi Amiri</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
+</html>
